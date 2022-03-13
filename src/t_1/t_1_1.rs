@@ -14,7 +14,8 @@ pub fn t_1_1_do(){
 				return;
 			},
 		};
-		sum = &sum + num;		
+		// sum = &sum + num;
+        sum += num;
 	}
 
 	println!("{}", sum);

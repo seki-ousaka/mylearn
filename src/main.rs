@@ -13,7 +13,11 @@ fn main() {
     // // bit operation
     // t_1_3::t_1_3_do();
 
+    // exec t_1 dir
     t_1();
+
+    // exec t_2 dir
+    t_2();
 }
 
 fn t_1(){
@@ -25,4 +29,12 @@ fn t_1(){
 
     // bit operation
     t_1_3::t_1_3_do();
+
+    // constant time
+    let n :i32 = t_1_4::t_1_4_do();
+    println!("{}", n);
+}
+
+fn t_2() {
+
 }
